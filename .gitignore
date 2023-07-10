@@ -1,0 +1,8 @@
+/node_modules/
+/dist/
+/stash/
+/*.js
+/*.sh
+/.parcel-cache
+package-lock.json
+_a
