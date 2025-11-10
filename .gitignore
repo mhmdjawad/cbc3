@@ -6,3 +6,5 @@
 /.parcel-cache
 package-lock.json
 _a
+
+!/main.js

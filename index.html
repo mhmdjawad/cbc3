@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Chess Battle City — Demo</title>
+  <link rel="stylesheet" href="./style.css" />
+</head>
+<body>
+  <div id="hud">
+    <div id="turn">Turn: Player</div>
+    <div id="info">Use arrow keys to move. Press <strong>Space</strong> to end turn.</div>
+    <div id="fps">FPS: <span id="fpsVal">0</span></div>
+  </div>
+  <canvas id="c"></canvas>
+
+  <!-- Three.js (UMD build) -->
+  <script src="https://unpkg.com/three@0.155.0/build/three.min.js"></script>
+  <!-- Demo app -->
+  <script src="./main.js"></script>
+</body>
+</html>

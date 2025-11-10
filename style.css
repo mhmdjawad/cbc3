@@ -1,0 +1,23 @@
+/* Simple full-screen canvas + HUD */
+html, body {
+  height: 100%;
+  margin: 0;
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+}
+#c {
+  display: block;
+  width: 100%;
+  height: 100vh;
+}
+#hud {
+  position: absolute;
+  left: 12px;
+  top: 12px;
+  background: rgba(0,0,0,0.35);
+  color: #fff;
+  padding: 8px 12px;
+  border-radius: 6px;
+  z-index: 2;
+  font-size: 13px;
+}
+#hud strong { color: #ffd; }
