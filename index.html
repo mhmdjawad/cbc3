@@ -17,6 +17,7 @@
           <button id="moveBtn" class="btn">Move</button>
           <button id="aimBtn" class="btn">Aim / Shoot</button>
           <button id="endTurn" class="btn primary">End Turn</button>
+          <button id="helpBtn" class="btn">Help (H)</button>
         </div>
       </div>
       <div id="sidebar">
@@ -29,6 +30,24 @@
         <h3>Logs</h3>
         <div id="log"></div>
       </div>
+
+      <div id="helpOverlay" class="hidden">
+        <div class="help-panel">
+          <h2>Controls & Help</h2>
+          <ul>
+            <li><strong>1-9</strong> — Select tank</li>
+            <li><strong>M</strong> — Show movement range</li>
+            <li><strong>A</strong> — Enter aiming mode</li>
+            <li><strong>Space</strong> — End player turn</li>
+            <li><strong>Esc</strong> — Cancel aim / clear overlays</li>
+            <li><strong>F</strong> — Fire (in aim mode)</li>
+            <li><strong>H</strong> — Toggle this help</li>
+            <li><strong>Click</strong> on grid — Move selected tank (if in range)</li>
+          </ul>
+          <button id="closeHelp" class="btn">Close</button>
+        </div>
+      </div>
+
       <div id="aimPanel" class="hidden">
         <h3>Aiming Mode</h3>
         <div class="aim-controls">
@@ -40,6 +59,7 @@
           <button id="cancelAim" class="btn">Cancel</button>
         </div>
       </div>
+
     </div>
   </div>
 
